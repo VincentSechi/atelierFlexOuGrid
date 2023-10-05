@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Flex ou Grid</title>
+</head>
+<body>
+    <header>
+        <div class="nav_container">
+            <nav class="nav_container-items">
+                <h1 class="nav_logo">
+                    logo
+                </h1>
+                <ul class="nav_list">
+                    <li>home</li>
+                    <li>about</li>
+                    <li>contact</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="wrapper">
+            <!-- section1 FlexBox car inutile de faire un grid de 1-->
+            <section class="section_container">
+                <h1 class="flexOrGrid">FLEX car inutile de faire un grid de 1/4</h1>
+                <div class="container_item">
+                    <div class="animal">
+                        <img src="assets/renard.png" alt="renard" class="img_pos">
+                            <p class="animal_text">Lorem ipsum dolor sit amet consectetur. In <span class="blueBoldText">volutpat</span> magna lectus mauris. Quisque ultrices volutpat pellentesque sit tellus sed faucibus...</p>
+                        <div class="animal_info">
+                            <h4>Le renard</h4>
+                            <span>+</span>
+                        </div>
+                    </div>
+    
+                    <div class="animal">
+                        <img src="assets/flamand.png" alt="flamand" class="img_pos">
+                        <p class="animal_text">Lorem ipsum dolor sit amet consectetur. In <span class="blueBoldText">volutpat</span> magna lectus mauris. Quisque ultrices volutpat pellentesque sit tellus sed faucibus...</p>
+                        <div class="animal_info">
+                            <h4>Le flamand rose</h4>
+                            <span>+</span>
+                        </div>
+                    </div>
+    
+                    <div class="animal">
+                        <img src="assets/tigre.png" alt="tigre" class="img_pos">
+                        <p class="animal_text">Lorem ipsum dolor sit amet consectetur. In <span class="blueBoldText">volutpat</span> magna lectus mauris. Quisque ultrices volutpat pellentesque sit tellus sed faucibus...</p>
+                        <div class="animal_info">
+                            <h4>Le tigre</h4>
+                            <span>+</span>
+                        </div>
+                    </div>
+                    <div class="animal">
+                        <img src="assets/tortue.png" alt="tortue" class="img_pos">
+                        <p class="animal_text">Lorem ipsum dolor sit amet consectetur. In <span class="blueBoldText">volutpat</span> magna lectus mauris. Quisque ultrices volutpat pellentesque sit tellus sed faucibus...</p>
+                        <div class="animal_info">
+                            <h4>La tortue</h4>
+                            <span>+</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- section2 GRID car horrible aveac flex, utilisation d'une grid de 5/4  -->
+            <section class="section_container">
+                <h1 class="flexOrGrid">Grid car horrible avec flex, grid de 5/4</h1>
+                <div class="bloc1">
+                    <div class="square1">
+                        <img src="assets/Rectangle 67.png" alt="Rectangle">
+                    </div>
+                    <div class="square2">
+                        <img src="assets/Rectangle 68.png" alt="Rectangle">
+                    </div>
+                    <div class="square3">
+                        <img src="assets/Rectangle 69.png" alt="Rectangle">
+                    </div>
+                    <div class="square4">
+                        <img src="assets/Rectangle 71.png" alt="Rectangle">
+                    </div>
+                    <div class="square5">
+                        <img src="assets/Rectangle 72.png" alt="Rectangle">
+                    </div>
+                    <div class="square6">
+                        <img src="assets/Rectangle 73.png" alt="Rectangle">
+                    </div>
+                    <div class="square7">
+                        <img src="assets/Rectangle 75.png" alt="Rectangle">
+                    </div>
+                    <div class="square8">
+                        <img src="assets/Rectangle 77.png" alt="Rectangle">
+                    </div>
+                    <div class="square9">
+                        <img src="assets/Rectangle 78.png" alt="Rectangle">
+                    </div>
+                    <div class="square10">
+                        <img src="assets/Rectangle 79.png" alt="Rectangle">
+                    </div>
+                    <div class="square11">
+                        <img src="assets/Rectangle 80.png" alt="Rectangle">
+                    </div>
+                    <div class="square12">
+                        <img src="assets/Rectangle 81.png" alt="Rectangle">
+                    </div>
+                    <div class="square13">
+                        <img src="assets/Rectangle 83.png" alt="Rectangle">
+                    </div>
+                    <div class="square14">
+                        <img src="assets/Rectangle 86.png" alt="Rectangle">
+                    </div>
+                    <div class="square15">
+                        <img src="assets/Rectangle 87.png" alt="Rectangle">
+                    </div>
+                </div> 
+            </section>
+
+            <section class="section_container">
+                <h1 class="flexOrGrid">Flex, question de préférence ici</h1>
+                <div class="card_container">
+                    <!-- carte numéro 1 -->
+                    <div class="card1">
+                        <h4 class="rh_title">Services</h4>
+                        <ul class="card1_list">
+                            <li class="card1_list-item">
+                                <p class="card1_rh-text">RH</p>
+                                <p class="card1_rh-hour">100h restantes</p>
+                            </li>
+                            <li class="card1_list-item">
+                                <p class="card1_rh-text">Stock</p>
+                                <p class="card1_rh-hour">40h restantes</p>
+                            </li>
+                            <li class="card1_list-item">
+                                <p class="card1_rh-text">Direction</p>
+                                <p class="card1_rh-hour">120h restantes</p>
+                            </li>
+                            <li class="card1_list-item">
+                                <p class="card1_rh-text">Commercial</p>
+                                <p class="card1_rh-hour">10h restantes</p>
+                            </li>
+                            <li class="card1_list-item">
+                                <p class="card1_rh-text">Client</p>
+                                <p class="card1_rh-hour">20h restantes</p>
+                            </li>
+                            <li class="card1_list-item">
+                                <p class="card1_rh-text">Commercial</p>
+                                <p class="card1_rh-hour">110h restantes</p>
+                            </li>
+                            <li class="card1_list-item">
+                                <p class="card1_rh-text">RH</p>
+                                <p class="card1_rh-hour">24h restantes</p>
+                            </li>
+                        </ul>
+                        <div class="card1_bottom">
+                            <div class="card1_bottom-field">
+                                <p class="results">7 résultats</p>
+                                <p class="addService">Ajouter un service</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- carte numéro 2 -->
+                    <div class="card2">
+                        <h4 class="rh_title">Service : RH</h4>
+                        <div class="rh_service">
+                            <a href="mailto:rh@service.fr">rh@service.fr</a>
+                            <img src="assets/message.png" alt="message" class="icon">
+                        </div>
+                        <div class="rh_service">
+                            <p>100 heures restantes</p>
+                            <img src="assets/hourglass.png" alt="hourglass" class="icon">
+                        </div>
+                        <div class="card2_button-container">
+                            <div class="button1"><p class="button_text">Supprimer</p></div>
+                            <div class="button2"><p class="button_text">Ajouter un utilisateur</p></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
